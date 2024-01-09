@@ -24,6 +24,7 @@ Construction of a Naive Bayes model was also attempted in the notebook, but its 
 ## Results
 ![](https://github.com/Davidkeebler/Emotions_dataset_ML/blob/main/img/acc_loss_f1.png)
 The final model achieved an accuracy of 88% on the test data with a final F1 score of 0.3. Likely due to the imbalance in labels, the model struggles to properly identify surprise, which was the least common emotion in the dataset. It also has a tendency to occasionally confuse fear and anger, which may be due to their similar inventory of words. The following are charts of accuracy and loss over the course of the model's training, and a confusion matrix that shows its results:
+
 ![](https://github.com/Davidkeebler/Emotions_dataset_ML/blob/main/img/confusionmatrix.png)
 
 ## Analysis and Conclusions
